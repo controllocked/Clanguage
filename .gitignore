@@ -1,54 +1,49 @@
-.vscode
-tempCodeRunner.c
-# Prerequisites
-*.d
-
-# Object files
+*.[!ch]
+# Игнорирование объектных файлов
 *.o
-*.ko
 *.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Игнорирование исполняемых файлов
+*.exe
+*.out
+*.app
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
+# Игнорирование библиотек
 *.lib
 *.a
 *.la
 *.lo
-
-# Shared objects (inc. Windows DLLs)
 *.dll
-*.so
-*.so.*
 *.dylib
+*.so
 
-# Executables
-*.exe
+# Игнорирование временных файлов
+*.tmp
+*.log
+*.swp
+*~
+
+# Игнорирование каталогов сборки
+/build/
+/bin/
+/obj/
+
+# Игнорирование системных файлов Mac
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+
+# Игнорирование файлов IDE
+.idea/
+.vscode/
+*.iml
+
+# Игнорирование автогенерируемых файлов
+autom4te.cache/
+*.in
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+config.log
+config.status
