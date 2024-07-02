@@ -1,5 +1,7 @@
 *.[!ch]
 tempCodeRunner.c
+tempCodeRunnerFile.c
+
 # Игнорирование объектных файлов
 *.o
 *.obj
